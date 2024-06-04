@@ -122,6 +122,13 @@ To achieve this, we have:
 - Included images
 ```
 
+### Database
+A small set of notes for working with Vercel Postgres. First and foremost, note that the current Next.Js App Router, is still incomplete in its functionality definition.
+
+This means
+- When accessing previews of Vercel always use the vercel branch preview, not the
+- In a way we have hard coded the API end points for the client, but unfortunately with the APP Router it is the only way to call for a dynamic API request without creating a separate 'backend'.
+
 ### Open Source
 
 Follow the steps below to suggest a patch or a feature for this project. For information on naming conventions for pull requests or commits, read the rest of the [contributing](#contributing) section above.
